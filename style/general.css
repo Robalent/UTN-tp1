@@ -1,0 +1,109 @@
+/*GENERAL*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff7e3c4;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none; /*eliminamos los subrayados de los enlaces*/
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+/*HEADER*/
+header{
+    background-color: #fff7e3c4;
+}
+
+header nav a img{
+    width: 100px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    box-shadow: 5px 5px 4px rgba(131, 131, 131, 0.759);
+    padding: 10px 70px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+header nav ul a{
+    color: #DB007D;
+    font-size: 20px;
+}
+
+header nav ul a:hover{
+    color: #f8d030;
+    font-weight: bold;
+}
+
+
+/*GOOGLE FONTS*/
+/*1*/
+.gluten-uniquifier {
+  font-family: "Gluten", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 1;
+}
+
+/*2*/
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*FOOTER*/
+footer{
+  background-color: #fff7e3c4;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 20px 20px 0 0; 
+  width: 100%;
+  padding: 10px 0;
+  position:static;  
+  margin-bottom: 0;
+  left: 0;
+  margin-top: 15px;
+}
+
+.footer{
+  text-align: center;
+}
+
+.footer ul{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+  justify-content: center;
+}
+
+.footer ul li{
+  font-size: large;
+}
+
+footer h6{
+  margin-top: 10px;  
+  font-size: 14px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}

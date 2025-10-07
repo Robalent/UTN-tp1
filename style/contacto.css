@@ -1,0 +1,65 @@
+/*GENERAL*/
+h1{
+    color: #DB007D;
+    margin: 10px;
+    text-align: center;
+}
+p{
+    margin: 10px;
+
+}
+
+.p-form{
+    margin: 0px;
+}
+
+/*FORMULARIO*/
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff7e3c4;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 22px gray;
+    padding: 10px;
+    margin: 40px auto;
+}
+
+form div {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+input, textarea{
+    margin-bottom: 12px;
+}
+
+label{
+    display: block;
+}
+
+/*BOTONES*/
+.button{
+    margin: 20px;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    background-color: #DB007D;
+    color: white;
+    width: 75px;
+    height: 25px;
+}
+
+button:hover{
+    background-color: #f8d030;
+    color: #DB007D;
+    border-color: #f8d030;
+} 
+
+span{
+    color: #DB007D;
+    font-style: italic;
+}

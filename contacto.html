@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!--íconos-->
+    <script src="https://kit.fontawesome.com/3d8d2a3828.js" crossorigin="anonymous"></script>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+
+            <a href="#"><img src="assets/img/logo.png" alt="logo"></a>
+            
+            <ul class="gluten-uniquifier">
+                <li ><a href="index.html"><i class="fa-slab-press fa-regular fa-house"></i>Inicio</a></li>
+                <li ><a href="index.html #galeria">Galería</a></li>
+                <li ><a href="catalogo.html">Catálogo</a> </li>
+                <li ><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1 class="gluten-uniquifier">Formulario de contacto<i class="fa-solid fa-comment-dots"></i></h1>
+        <p class="courier-prime-regular">Contactate con nosotras sobre cualquier duda o consulta que tengas. Tu consulta no molesta!</p>
+        
+        <!--FORMULARIO-->
+        <div class="form-container">
+            <form action="post" class="courier-prime-regular">
+                
+                <!--nombre-->
+                <label for="nombre" class="label">Nombre:</label>
+                <input type="text" name="nombre">
+        
+                <!--email-->
+                <label for="email" class="label">Email:</label>
+                <input type="email" name="email">
+
+                <!--telefono-->
+                <label for="telefono" class="label">Teléfono:</label>
+                <input type="tel" name="telefono">
+
+                <!--pago-->
+                <p class="p-form">Métodos de pago:</p>
+                <label for="transferencia"> <input type="radio"> Transferencia </label>
+                <label for="transferencia"><input type="radio"> Tarjeta</label>
+                <label for="efectivo"><input type="radio"> Efectivo</label>
+
+                <!--observación-->
+                <label for="consulta" class="label">Observación:</label>
+                <textarea name="consulta" id="consulta"></textarea>
+
+                <!--term. y cond.-->
+                <label for=""><input type="checkbox" name="terminos" id="terminos">Acepto los <span>Términos y Condiciones</span></label>
+                
+                <!--botones-->
+                <div class="button">
+                    <button type="submit" >Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div> 
+
+
+            </form> 
+        </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+
+        <div class="footer">
+            <ul>
+                <li ><a href="index.html">Inicio</a></li>
+                <li ><a href="index.html #galeria">Galería</a></li>
+                <li ><a href="catalogo.html">Catálogo</a> </li>
+                <li ><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <hr>
+            <h6>2025 - todos los derechos reservados</h6>
+        </div>
+    </footer>
+    
+</body>
+</html>

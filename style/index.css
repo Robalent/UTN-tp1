@@ -1,0 +1,104 @@
+/*PORTADA*/
+.portada{
+  margin: 35px;
+  padding: 20px;
+}
+
+.portada img{
+  width: 90vw;
+  border-radius: 20px;
+}
+
+h2{
+  margin: 10px;
+}
+
+main h1{
+  color: #DB007D;
+  margin-top: 40px;
+}
+
+#preg-index{
+  color: black;
+  margin: 10px;
+}
+
+/*ACCORDION*/
+.accordion{
+  width: 70vw;
+  margin: 40px auto;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #db007da1; /*sacado del Devtool*/
+}
+
+.accordion-button, .accordion-button:not(.collapsed){
+  background-color:#DB007D;
+  color: white;
+  border-radius: 5px;
+}
+
+.accordion-item{
+  background-color: #fff7e3c4;
+  border: none;
+}
+
+.accordion-header{
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius: 5px; /*sacado del Devtool*/
+}
+
+/*GALERÍA DE FOTOS*/
+#galeria{
+  color: #DB007D;
+  margin: 30px;
+}
+
+.grid-container{
+  display: grid;
+  justify-content: center;
+  margin: 20px;
+  margin-bottom: 0;
+  grid-gap: 20px;
+  padding: 0;
+  grid-template-columns: 22vw 15vw 15vw 22vw;
+  border-radius: 15px;
+}
+
+.grid-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.grid-2{
+  grid-template-columns: 15vw 22vw 22vw 15vw !important; 
+}
+
+.btn-cat{
+  background-color: #DB007D;
+  color: white;
+  border-radius: 10px;
+  padding: 4px 4px;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+}
+
+.btn-cat:hover{
+  background-color:#f8d030;
+  color: #DB007D;
+}
+
+
+.btn-container{
+  display: flex;
+  justify-content: end;
+  margin-right: 30px;
+
+}
