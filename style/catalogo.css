@@ -12,7 +12,7 @@
 
 .card{
     display: flex;
-    background-color: #0d095b;
+    background-color: #DB007D;
     align-content: space-between;
     justify-content: center;
     grid-template-rows: auto 1fr;
@@ -37,7 +37,6 @@
 
 .card-title{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     margin: 0;
     color:#FFF7E3 ;
@@ -56,17 +55,18 @@
 /*BOTONES*/
 .btn{
     border-radius: 5px;
-    background-color:#f8d030 ;
-    color: #DB007D;
+    background-color: #DB007D;
+    color: #FFF7E3 ;
     text-align: center;
     padding: 8px 10px;
     margin-right: 160px;
     text-decoration: none;
     font-family: monospace;
+    border: solid 3px #f8d030;
 }
 
 .btn:hover{
-    box-shadow: 3px 3px 2px #DB007D;
+    box-shadow: 3px 3px 2px #f8d030;
 }
 
 /*TEXTOS GENERALES*/

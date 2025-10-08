@@ -72,6 +72,11 @@ main h1{
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(127, 127, 127, 0.796);
+}
+
+.grid-item img:hover{
+  transform: scale(1.02);
 }
 
 .grid-2{
